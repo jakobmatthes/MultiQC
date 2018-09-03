@@ -338,6 +338,8 @@ longranger/invocation:
     max_filesize: 2048
 macs2:
     fn: '*_peaks.xls'
+mappingqc:
+    fn: '*_stats_map.qcML'
 methylQA:
     fn: '*.report'
     shared: true
@@ -443,6 +445,8 @@ rna_seqc/coverage:
     fn_re: 'meanCoverageNorm_(high|medium|low)\.txt'
 rna_seqc/correlation:
     fn_re: 'corrMatrix(Pearson|Spearman)\.txt'
+readqc:
+    fn: '*_stats_fastq.qcML'
 rsem:
     - fn: '*.cnt'
 rseqc/bam_stat:
@@ -513,6 +517,8 @@ slamdunk/tcperutrpos:
 snpeff:
     contents: 'SnpEff_version'
     max_filesize: 5000000
+somaticqc:
+    fn: '*_stats_som.qcML'
 sortmerna:
     contents: 'Minimal SW score based on E-value'
     shared: true
@@ -554,6 +560,8 @@ tophat:
 trimmomatic:
     contents: 'Trimmomatic'
     shared: true
+variantqc:
+    fn: '*_stats_vc.qcML'
 vcftools/relatedness2:
     fn: '*.relatedness2'
 vcftools/tstv_by_count:

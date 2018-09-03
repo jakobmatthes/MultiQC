@@ -211,6 +211,10 @@ fn_clean_trim:
     - '_matrix'
     - '.stats'
     - '.hist'
+    - '_stats_fastq.qcML'
+    - '_stats_map.qcML'
+    - '_stats_vc.qcML'
+    - '_stats_som.qcML'
 
 # Files to ignore when indexing files.
 # Grep file match patterns.
@@ -313,6 +317,18 @@ module_order:
     - happy:
         module_tag:
             - DNA
+    - somaticqc:
+          module_tag:
+          - DNA
+          - cancer
+    - variantqc:
+          module_tag:
+          - DNA
+          - WGS
+    - mappingqc:
+          module_tag:
+          - DNA
+          - RNA
 
     # Post-alignment processing
     - homer:
@@ -462,6 +478,10 @@ module_order:
             - RNA
             - DNA
     - trimmomatic:
+        module_tag:
+            - RNA
+            - DNA
+    - readqc:
         module_tag:
             - RNA
             - DNA

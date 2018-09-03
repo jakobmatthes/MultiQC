@@ -25,6 +25,7 @@ MultiQC Modules:
     KAT: modules/kat.md
     leeHom: modules/leehom.md
     minionqc: modules/minionqc.md
+    ReadQC: modules/readqc.md
     Skewer: modules/skewer.md
     SortMeRNA: modules/sortmerna.md
     Trimmomatic: modules/trimmomatic.md
@@ -60,6 +61,7 @@ MultiQC Modules:
     HOMER: modules/homer.md
     HTSeq: modules/htseq.md
     MACS2: modules/macs2.md
+    MappingQC: modules/mappingqc.md
     Methyl QA: modules/methylQA.md
     miRTrace: modules/mirtrace.md
     phantompeakqualtools: modules/phantompeakqualtools.md
@@ -78,9 +80,11 @@ MultiQC Modules:
     Sargasso: modules/sargasso.md
     Slamdunk: modules/slamdunk.md
     SnpEff: modules/snpeff.md
+    SomaticQC: modules/somaticqc.md
     Supernova: modules/supernova.md
     Stacks: modules/stacks.md
     THeTA2: modules/theta2.md
+    VariantQC: modules/variantqc.md
     VCFTools: modules/vcftools.md
     verifyBAMID: modules/verifybamid.md
 Custom Content:
